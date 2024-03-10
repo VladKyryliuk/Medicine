@@ -17,7 +17,7 @@ app.use("/pharmacy", postRouterPharm);
 const postRouterCart = require('./routes/Cart')
 app.use("/cart", postRouterCart);
 
-const postRouterCart = require('./routes/Order')
+const postRouterOrder = require('./routes/Order')
 app.use("/order", postRouterCart);
 
 db.sequelize.sync().then(() => {
