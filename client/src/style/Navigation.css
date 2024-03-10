@@ -1,0 +1,26 @@
+.navigation-panel {
+    width: 100%;
+    background-color: rgba(132, 131, 131, 0.875);
+}
+
+.navigation-panel ul {
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+
+}
+
+.navigation-panel li {
+    margin-right: 10px;
+}
+
+.navigation-panel li .navigate {
+    width: 100px;
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: greenyellow;
+    display: block;
+    text-align: center;
+}

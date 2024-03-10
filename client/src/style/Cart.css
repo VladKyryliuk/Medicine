@@ -1,0 +1,78 @@
+.container-cart {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.products,
+.form1 {
+    width: 35rem;
+    margin: 20px;
+    height: 400px;
+}
+
+.products {
+    padding: 15px;
+    border: 2px solid black;
+    background-color: rgba(106, 105, 105, 0.815);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.products img {
+    height: 200px;
+    width: 200px;
+}
+
+.form1 {
+    border: 2px solid black;
+    background-color: rgba(106, 105, 105, 0.815);
+    border-radius: 25px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+span {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+button[type="submit"] {
+    font-size: 16px;
+    margin: 0 auto;
+    height: 35px;
+    width: 350px;
+    margin-bottom: 40px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

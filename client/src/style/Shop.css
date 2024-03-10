@@ -1,0 +1,22 @@
+.wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.background-image {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://st5.depositphotos.com/32636096/62017/i/450/depositphotos_620178606-stock-photo-lots-blooming-daisies-sunny-summer.jpg');
+  background-size: cover;
+  filter: blur(10px);
+  opacity: 0.85;
+  z-index: -1;
+}
+
+.content {
+  display: flex;
+  padding: 2% 2% 0% 2%;
+  height: 81vh;
+}

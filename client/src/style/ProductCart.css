@@ -1,0 +1,10 @@
+.block {
+    margin: auto;
+    display: flex;
+    padding: 2% 2% 0% 2%;
+    height: 81vh;
+    width: 90%;
+    border: 2px solid rgba(0, 0, 0, 0.716);
+    border-radius: 1px 1px 25px 25px;
+    background-color: rgba(241, 240, 240, 0.571);
+}

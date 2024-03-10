@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.product-place {
+    width: 75%;
+    background-color: rgba(150, 184, 148, 0.748);
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.boxes-product {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.box-product {
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.box-product img {
+    height: 15rem;
+    width: 100%;
+}
+
+.box-product .info {
+    background-color: rgba(235, 224, 224, 0.907);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 70%;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inf-buy {
+    display: flex;
+}
+
+.buttonBuy {
+    width: 175px;
+    height: 60px;
+    border: none;
+    background-color: rgb(32, 179, 54);
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.buttonBuy:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgb(1, 174, 1);
+}
+
+.buttonBuy:active {
+    opacity: 1;
+}
+
+
+
+.product-place::-webkit-scrollbar {
+    width: 50px;
+}
+
+.product-place::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 25px;
+}
+
+.product-place::-webkit-scrollbar-thumb {
+    background-color: rgb(172, 172, 172);
+    border-radius: 25px;
+}
+
+.product-place::-webkit-scrollbar-button {
+    background-color: white;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.product-place::-webkit-scrollbar-button:start {
+    background-image: url('../icon/arrow-up.png');
+    background-size: cover;
+}
+
+.product-place::-webkit-scrollbar-button:end {
+    background-image: url('../icon/arrow-down.png');
+    background-size: cover;
+}
